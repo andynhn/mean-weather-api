@@ -1,0 +1,18 @@
+<!--By Andy Nguyen-->
+<div class="container">
+  <div class="body">
+    <h1 style="text-align: center">{{ title }}</h1>
+    <div class="row">
+      <div class="details">
+        <p>Humidity: {{ stats.main.humidity }}%</p>
+        <p>Temperature (Average): {{ tempAvg }} °F</p>
+        <p>Temperature (High): {{ tempMax }} °F</p>
+        <p>Temperature (Low): {{ tempMin }} °F</p>
+        <p>Status: {{ stats.weather[0].description }}</p>
+      </div>
+      <div class="picture">
+        <img src="../assets/images/sanjose.jpg" alt="sanjose/sanfrancisco">
+      </div>
+    </div>
+  </div>
+</div>

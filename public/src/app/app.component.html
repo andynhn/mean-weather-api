@@ -1,0 +1,15 @@
+<!--By Andy Nguyen-->
+<div style="text-align:center">
+  <h1>{{ title }} API</h1>
+  <h5>By {{ author }}</h5>
+    <nav>
+      <a [routerLink]="['/seattle']">Seattle, WA</a><span> | </span>
+      <a [routerLink]="['/sanjose']">San Jose, CA</a><span> | </span> 
+      <a [routerLink]="['/burbank']">Burbank ,CA</a><span> | </span>
+      <a [routerLink]="['/dallas']">Dallas, TX</a><span> | </span>
+      <a [routerLink]="['/dc']">Washington, D.C.</a><span> | </span>
+      <a [routerLink]="['/chicago']">Chicago, IL</a>
+    </nav>
+</div>
+
+<router-outlet></router-outlet>
